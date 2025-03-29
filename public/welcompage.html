@@ -1,0 +1,195 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Blogger
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: #d9534f;
+        color: white;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .container {
+        padding: 20px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .header img {
+        height: 40px;
+    }
+    .header a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .main-content {
+        margin-top: 50px;
+    }
+    .main-content h1 {
+        font-size: 2.5em;
+        margin: 0;
+    }
+    .main-content p {
+        font-size: 1.2em;
+        margin: 10px 0 20px;
+    }
+    .main-content .cta-button {
+        background-color: #f0ad4e;
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .blog-preview {
+        background-color: white;
+        color: black;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 600px;
+        text-align: left;
+    }
+    .blog-preview a {
+        display: block;
+        background-color: #d9534f;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .blog-preview img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .background-decorations {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .background-decorations img {
+        position: absolute;
+    }
+    .background-decorations .spoon {
+        top: 20%;
+        left: 5%;
+        width: 10%;
+    }
+    .background-decorations .whisk {
+        top: 30%;
+        left: 15%;
+        width: 10%;
+    }
+    .background-decorations .cherries {
+        top: 40%;
+        left: 10%;
+        width: 5%;
+    }
+    .background-decorations .egg {
+        bottom: 10%;
+        left: 5%;
+        width: 15%;
+    }
+    .background-decorations .rolling-pin {
+        top: 20%;
+        right: 5%;
+        width: 10%;
+    }
+    .background-decorations .sifter {
+        top: 30%;
+        right: 15%;
+        width: 10%;
+    }
+    .background-decorations .pie {
+        bottom: 10%;
+        right: 5%;
+        width: 15%;
+    }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+    <div class="header">
+        <a href = "/welcome" >
+            <img alt="Blogger logo" src="img/blog-high-resolution-logo.png"/>
+        </a>
+        <a href="/login">
+            SIGN IN
+        </a>
+    </div>
+   <div class="main-content">
+    <h1>
+     Publish your passions, your way
+    </h1>
+    <p>
+     Create a unique and beautiful blog easily.
+    </p>
+    <a class="cta-button" href="#">
+     CREATE YOUR BLOG
+    </a>
+   </div>
+   <div class="blog-preview">
+    <a href="/cooking-blog">
+     My cooking blog
+    </a>
+    <p>
+     Thursday, 18 January
+    </p>
+    <h3>
+     Delicious dessert recipe
+    </h3>
+    <img alt="Delicious dessert in a jar" src="https://img.freepik.com/premium-photo/assortment-delicious-desserts-including-waffles-cakes-chocolates-pastries-beautifully_1115211-1754.jpg?w=2000"/>
+   </div>
+   <div class="blog-preview">
+    <a href="#">
+     My travel blog
+    </a>
+    <p>
+     Monday, 22 January
+    </p>
+    <h3>
+     Exploring the mountains
+    </h3>
+    <img alt="Beautiful mountain landscape" src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="/>
+   </div>
+   <div class="blog-preview">
+    <a href="#">
+     My tech blog
+    </a>
+    <p>
+     Wednesday, 24 January
+    </p>
+    <h3>
+     Latest tech trends
+    </h3>
+   </div>
+  </div>
+  <div class="background-decorations">
+   <img alt="Spoon" class="spoon" src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEh7_fc5bS8ETOvnYB9znq9kuN9h-3P6Jxa-oGzyznfh9NSMB3_wAEYUFkFIsuOjbnGzQIePMbpMCv54l4ZRo7dMe7Uj45WLzFcXYc4MQeQjNwrP3R2Rd3N6hmIvxR5Pnp_IT9QOS_QHeVXVZT5Mq_q8TG4-sQ/w768"/>
+   <img alt="Whisk" class="whisk" src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgGwPdU8WtmxMMlpJpLp_WB4w-I7kttwxMyMpYG3RUMCDlD-kgdbIDT9qVdJ_PBYgbPyjJiiO0_wG1_g2opMzKy8B1fGK0kqf5TTsm9qJ5sivgI3abWR5wcZfWn2bshztXX2X5iH97c4BYCjB25DYyPrhKb9A/w512"/>
+   <img alt="Cherries" class="cherries" src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgqwDOK8JG4QcU1sP48WRioilOW18aqQfkO1bkjd3M1yKpNuxAprlGnAxXEoOFZ9GmI441trlQ4MT3NXxuMPDq_Tr1k6SaKCj_d_u0SYNQiGo2VlV-6-tpvR6ti6FlMW-cir1-JieUXGbpM7XyQdUTmTF-KrdB46Q/w512"/>
+   <img alt="Egg" class="egg" src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEhiWogHstosdRInnZ55S81CasnzOXxfa-cqeqYcmSVPyK_0RbUEsxvXAwcUL5gWUGqEV_ABe-ppQO5LNUIR0yiVSgILNNoMGbBih99nPmrlfnoEckAi3vkHO6nIW0qnrBJJswvweecMT9_8y1_UEChsZA08/w768"/>
+   <img alt="Rolling pin" class="rolling-pin" src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEhlaPQFNKccFLK9YyBYJLL4RiGnH_8z9fVVsgtXAGrmYP7ssiEgozEGikJcQkDXGVK_MyNpAAgfvQr5idw5G47JsT5hM_c1oBRHWilkYM12511f2wPPqe1Hdx829PbAE9uYWlVr3tjVCGpZheaGrKIb-CIZoBdnoA/w768"/>
+   <img alt="Sifter" class="sifter" src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEi01kZriK2158ML0YhTJEy50UwdTgL883OdNWR4aZPP3HC3zd8mQBa1toN7X8ESY-1iL-udIykfM6FNKW9VkK2CWCozqUS-mWOdG-YU2JH28FyRk8LLdYEZd2FFQMEqtp8kB_vWbZSgWnu07p_oy4yZHED31A/w192"/>
+   <img alt="Pie" class="pie" src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgYglPEoAJn6-363GMv4BZFPhP4_K-L7alLs9vgFwCjed1oX2KthyXlXOGOEK60HM3oU7pM4WD7uyMatlXHYuisjMwJD4is4BzmQlFvzft209B8FsKVhwO0EZIEJth-pt67e_EJIJDXDvbP6z5xnzJIJXo/w384"/>
+  </div>
+ </body>
+</html>
